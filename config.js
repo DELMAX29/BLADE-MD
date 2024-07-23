@@ -20,7 +20,7 @@ module.exports = {
   packname:  process.env.PACK_NAME || 'MADE BY K29promax',
   
   botname:   process.env.BOT_NAME === undefined ? "BLADE-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'k29promax : process.env.OWNER_NAME,  
+  ownername: process.env.OWNER_NAME === undefined ? 'k29promax' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
